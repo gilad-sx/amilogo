@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+	, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body style="background:#f9f9f9">
+    <div style="display: grid; align-items: center; position: relative">
+      <div
+        style="
+          position: absolute;
+          z-index: 999;
+          grid-area: 1;
+          width: 100%;
+          display: grid;
+          text-align: center;
+		  font-family:'Amatic SC', sans-serif;
+		  font-size:36px;
+		  line-height:100%;
+		  font-weight: 900;
+		  color:white;
+        "
+      >
+        <div>בית חינוך אזורי</div>
+        <div>שש שנתי עמי אסף</div>
+        <div style="font-size:20px">בית עם שורשים ועם כנפיים</div>
+      </div>
+      <dotlottie-player
+        src="./bg.json"
+        autoplay
+        loop
+        id="ttttile"
+        objectfit="cover"
+        style="height: 300px; width: 100%; grid-area: 1"
+      />
+    </div>
+
+    <a href="https://github.com/aarsteinmedia/dotlottie-player">docs</a>
+  </body>
+</html>
